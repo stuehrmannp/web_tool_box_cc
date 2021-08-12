@@ -10,12 +10,15 @@ body {
 
 /* Color Section */
 
-section.colors {
+section.colors,
+section.fonts,
+section.text-styles {
   border: 2px solid gray;
   padding: 15px 15px;
+  margin-bottom: 20px;
 }
 
-.colors h3 {
+h3 {
   font-size: 25px;
 }
 
@@ -49,4 +52,43 @@ p.hex {
 
 .beige {
   background-color: #efd9ca;
+}
+
+/* Font Section */
+
+.font-card {
+  width: 40%;
+  display: inline-block;
+
+  margin-right: 50px;
+}
+
+.font-card h4 {
+  font-weight: normal;
+  text-decoration: underline;
+  font-size: 25px;
+}
+.font-card p {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Font families */
+.source-font {
+  font-family: "Source Code Pro", sans-serif;
+}
+
+.nunito-font {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
 }
