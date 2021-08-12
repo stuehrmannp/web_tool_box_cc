@@ -59,7 +59,6 @@ p.hex {
 .font-card {
   width: 40%;
   display: inline-block;
-
   margin-right: 50px;
 }
 
@@ -90,5 +89,30 @@ p.hex {
 }
 
 .poppins-font {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Text Styles Section */
+
+.text-styles h1 {
+  font-size: 26px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+}
+
+.text-styles h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+li {
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+.text-styles p {
+  font-weight: 400;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
 }
